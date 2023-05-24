@@ -1,7 +1,7 @@
 from telethon.sync import TelegramClient
 
 TORTOISE_ORM = {
-     "connections": {"default": 'sqlite://db_files/db.sqlite3'},
+     "connections": {"default": 'sqlite://C:/Users/shake/Desktop/הנדסת תוכנה/פרויקט גמר 2023/telecar_part2/finelproject/db_files/db.sqlite3'},
      "apps": {
          "models": {
              "models": ["tables", "aerich.models"],

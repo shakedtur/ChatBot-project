@@ -149,7 +149,7 @@ class Manage_User():
                 await self.post_in_work.save()
                 self.user_db.flow= "add_post:car_model"
                 await self.user_db.save()
-                await self.message_sender("נא להוסיף את שם הדגם של הרכב ")
+                await self.message_sender("נא להוסיף את שם חברה של הרכב ")
             except Exception as e:
                 print(f"eror in add_post flow=none :{e}")
 
@@ -160,7 +160,7 @@ class Manage_User():
                 await self.post_in_work.save()
                 self.user_db.flow= "add_post:car_model"
                 await self.user_db.save()
-                await self.message_sender("נא להוסיף את שם הדגם של הרכב ")    
+                await self.message_sender("נא להוסיף את סוג הרכב(מיני, משפחתי, גיפ)")    
             except Exception as e:
                 print(f"eror in add_post flow=car_type :{e}")
             
